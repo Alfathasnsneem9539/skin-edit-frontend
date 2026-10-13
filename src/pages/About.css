@@ -1,0 +1,801 @@
+/* =========================================================
+   ABOUT PAGE
+========================================================= */
+
+.about-page {
+  width: 100%;
+  background: #f8f5ef;
+  color: #242424;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.about-page *,
+.about-page *::before,
+.about-page *::after {
+  box-sizing: border-box;
+}
+
+.about-page h1,
+.about-page h2,
+.about-page h3,
+.about-page p {
+  margin-top: 0;
+}
+
+/* =========================================================
+   COMMON
+========================================================= */
+
+.about-small {
+  margin: 0 0 20px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+/* =========================================================
+   ABOUT HERO
+========================================================= */
+
+.about-hero {
+  min-height: calc(100vh - 80px);
+
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+
+  align-items: center;
+
+  gap: 60px;
+  padding: 70px 8%;
+}
+
+.about-hero-content {
+  width: 100%;
+  max-width: 520px;
+}
+
+.about-hero-content h1 {
+  margin-bottom: 28px;
+
+  font-size: 64px;
+  line-height: 1.05;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+.about-hero-description {
+  max-width: 450px;
+
+  margin-bottom: 0;
+
+  font-size: 16px;
+  line-height: 1.8;
+
+  color: #555;
+}
+
+/* =========================================================
+   HERO IMAGE
+========================================================= */
+
+.about-hero-image {
+  width: 100%;
+
+  overflow: hidden;
+
+  background: #eee9df;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-hero-image img {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+  object-position: center;
+}
+
+/* =========================================================
+   OUR STORY
+========================================================= */
+
+.about-story {
+  padding: 110px 8%;
+  background: #eee9df;
+}
+
+.about-section-label {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 18px;
+
+  margin-bottom: 55px;
+}
+
+.about-section-label span {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.about-section-label p {
+  margin: 0;
+
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+/* =========================================================
+   STORY IMAGE + CONTENT
+========================================================= */
+
+.about-story-main {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+
+  gap: 70px;
+}
+
+/* =========================================================
+   STORY IMAGE
+========================================================= */
+
+.about-story-image {
+  width: 100%;
+
+  overflow: hidden;
+
+  background: #f8f5ef;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-story-image img {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+  object-position: center;
+}
+
+.about-story-content {
+  width: 100%;
+  max-width: 600px;
+}
+
+.about-story-content h2 {
+  margin-bottom: 35px;
+
+  font-size: 46px;
+  line-height: 1.15;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.about-story-content p {
+  max-width: 600px;
+
+  margin-bottom: 20px;
+
+  font-size: 15px;
+  line-height: 1.8;
+
+  color: #555;
+}
+
+/* =========================================================
+   PHILOSOPHY
+========================================================= */
+
+.about-philosophy {
+  padding: 110px 8%;
+  background: #f8f5ef;
+}
+
+.about-philosophy-header {
+  text-align: center;
+
+  margin-bottom: 65px;
+}
+
+.about-philosophy-header h2 {
+  margin-bottom: 0;
+
+  font-size: 46px;
+  line-height: 1.15;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.philosophy-grid {
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+}
+
+.philosophy-card {
+  min-height: 250px;
+
+  padding: 35px;
+
+  background: #eee9df;
+
+  border-radius: 14px;
+}
+
+.philosophy-card span {
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.philosophy-card h3 {
+  margin: 55px 0 15px;
+
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.philosophy-card p {
+  margin-bottom: 0;
+
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: #555;
+}
+
+/* =========================================================
+   WHY SKIN EDIT
+========================================================= */
+
+.about-why {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+
+  gap: 70px;
+
+  padding: 110px 8%;
+
+  background: #eee9df;
+}
+
+/* =========================================================
+   WHY IMAGE
+========================================================= */
+
+.about-why-image {
+  width: 100%;
+
+  overflow: hidden;
+
+  background: #f8f5ef;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-why-image img {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+  object-position: center;
+}
+
+.about-why-content {
+  width: 100%;
+  max-width: 550px;
+}
+
+.about-why-content h2 {
+  margin-bottom: 28px;
+
+  font-size: 46px;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.about-why-description {
+  max-width: 480px;
+
+  margin-bottom: 45px;
+
+  font-size: 15px;
+  line-height: 1.8;
+
+  color: #555;
+}
+
+/* =========================================================
+   FEATURES
+========================================================= */
+
+.about-features {
+  width: 100%;
+
+  border-top: 1px solid #d8d2c8;
+}
+
+.about-feature {
+  display: grid;
+  grid-template-columns: 45px 1fr;
+
+  gap: 20px;
+
+  padding: 22px 0;
+
+  border-bottom: 1px solid #d8d2c8;
+}
+
+.about-feature > span {
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.about-feature h3 {
+  margin-bottom: 7px;
+
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.about-feature p {
+  margin-bottom: 0;
+
+  font-size: 13px;
+  line-height: 1.6;
+
+  color: #555;
+}
+
+/* =========================================================
+   OUR PROMISE
+========================================================= */
+
+.about-promise {
+  padding: 110px 8%;
+
+  background: #f8f5ef;
+
+  text-align: center;
+}
+
+.about-promise-content {
+  max-width: 700px;
+
+  margin: 0 auto;
+}
+
+.about-promise-content h2 {
+  margin-bottom: 30px;
+
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.about-promise-content > p:last-child {
+  max-width: 550px;
+
+  margin: 0 auto;
+
+  font-size: 15px;
+  line-height: 1.8;
+
+  color: #555;
+}
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.about-cta {
+  padding: 90px 8%;
+
+  background: #f8f5ef;
+
+  color: #242424;
+
+  text-align: center;
+}
+
+.about-cta .about-small {
+  color: #555;
+}
+
+.about-cta h2 {
+  margin-bottom: 40px;
+
+  font-size: 52px;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.about-cta-button {
+  display: inline-block;
+
+  padding: 15px 30px;
+
+  border: 1px solid #242424;
+
+  background: #242424;
+
+  color: #f8f5ef;
+
+  font-size: 13px;
+
+  text-decoration: none;
+
+  transition: all 0.2s ease;
+}
+
+.about-cta-button:hover {
+  background: transparent;
+  color: #242424;
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .about-hero {
+    gap: 45px;
+    padding: 65px 6%;
+  }
+
+  .about-hero-content h1 {
+    font-size: 52px;
+  }
+
+  .about-story {
+    padding: 90px 6%;
+  }
+
+  .about-section-label {
+    margin-bottom: 45px;
+  }
+
+  .about-story-main {
+    gap: 45px;
+  }
+
+  .about-story-content h2 {
+    font-size: 40px;
+  }
+
+  .about-philosophy {
+    padding: 90px 6%;
+  }
+
+  .about-philosophy-header h2 {
+    font-size: 40px;
+  }
+
+  .philosophy-grid {
+    gap: 20px;
+  }
+
+  .about-why {
+    gap: 45px;
+
+    padding: 90px 6%;
+  }
+
+  .about-why-content h2 {
+    font-size: 40px;
+  }
+
+  .about-promise {
+    padding: 90px 6%;
+  }
+
+  .about-promise-content h2 {
+    font-size: 42px;
+  }
+
+  .about-cta {
+    padding: 80px 6%;
+  }
+
+  .about-cta h2 {
+    font-size: 44px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .about-hero {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+
+    padding: 55px 6%;
+
+    min-height: auto;
+  }
+
+  .about-hero-content h1 {
+    font-size: 46px;
+    letter-spacing: -1px;
+  }
+
+  .about-hero-description {
+    font-size: 15px;
+  }
+
+  /* Hero image natural height */
+
+  .about-hero-image {
+    height: auto;
+  }
+
+  .about-hero-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* =====================================================
+     STORY
+  ===================================================== */
+
+  .about-story {
+    padding: 70px 6%;
+  }
+
+  .about-section-label {
+    margin-bottom: 40px;
+  }
+
+  .about-story-main {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+  }
+
+  .about-story-image {
+    height: auto;
+  }
+
+  .about-story-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-story-content h2 {
+    font-size: 36px;
+  }
+
+  /* =====================================================
+     PHILOSOPHY
+  ===================================================== */
+
+  .about-philosophy {
+    padding: 70px 6%;
+  }
+
+  .about-philosophy-header {
+    margin-bottom: 45px;
+  }
+
+  .about-philosophy-header h2 {
+    font-size: 36px;
+  }
+
+  .philosophy-grid {
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+  }
+
+  .philosophy-card {
+    min-height: auto;
+
+    padding: 30px;
+  }
+
+  .philosophy-card h3 {
+    margin-top: 35px;
+  }
+
+  /* =====================================================
+     WHY SKIN EDIT
+  ===================================================== */
+
+  .about-why {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+
+    padding: 70px 6%;
+  }
+
+  .about-why-image {
+    height: auto;
+  }
+
+  .about-why-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-why-content h2 {
+    font-size: 36px;
+  }
+
+  .about-why-description {
+    margin-bottom: 35px;
+  }
+
+  /* =====================================================
+     PROMISE
+  ===================================================== */
+
+  .about-promise {
+    padding: 70px 6%;
+  }
+
+  .about-promise-content h2 {
+    font-size: 38px;
+  }
+
+  /* =====================================================
+     CTA
+  ===================================================== */
+
+  .about-cta {
+    padding: 70px 6%;
+  }
+
+  .about-cta h2 {
+    font-size: 38px;
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+  .about-hero {
+    padding: 50px 5%;
+  }
+
+  .about-hero-content h1 {
+    font-size: 40px;
+  }
+
+  .about-hero-image {
+    height: auto;
+  }
+
+  .about-hero-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* =====================================================
+     STORY
+  ===================================================== */
+
+  .about-story {
+    padding: 60px 5%;
+  }
+
+  .about-story-main {
+    gap: 30px;
+  }
+
+  .about-story-image {
+    height: auto;
+  }
+
+  .about-story-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-story-content h2 {
+    font-size: 32px;
+  }
+
+  /* =====================================================
+     PHILOSOPHY
+  ===================================================== */
+
+  .about-philosophy {
+    padding: 60px 5%;
+  }
+
+  .about-philosophy-header h2 {
+    font-size: 32px;
+  }
+
+  /* =====================================================
+     WHY
+  ===================================================== */
+
+  .about-why {
+    padding: 60px 5%;
+  }
+
+  .about-why-image {
+    height: auto;
+  }
+
+  .about-why-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-why-content h2 {
+    font-size: 32px;
+  }
+
+  /* =====================================================
+     PROMISE
+  ===================================================== */
+
+  .about-promise {
+    padding: 60px 5%;
+  }
+
+  .about-promise-content h2 {
+    font-size: 34px;
+  }
+
+  /* =====================================================
+     CTA
+  ===================================================== */
+
+  .about-cta {
+    padding: 60px 5%;
+  }
+
+  .about-cta h2 {
+    font-size: 34px;
+  }
+
+  .about-cta-button {
+    padding: 14px 24px;
+  }
+}
