@@ -1,16 +1,75 @@
-# React + Vite
+# Skin Edit ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimalist skincare e-commerce website built with React, JavaScript, and CSS.
 
-Currently, two official plugins are available:
+🌐 **Live Website:** [Visit Skin Edit](https://skin-edit-frontend.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+Skin Edit is a skincare shopping website designed with a clean, modern, and minimal user interface. It provides a simple browsing experience for skincare products.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Home page with a hero section
+- Shop and product details
+- Shopping cart
+- Checkout page
+- Order success page
+- My Orders
+- Wishlist
+- User profile
+- About Us
+- Skincare Routine
+- Skincare Tips
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+## Getting Started
+
+To run this project locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Alfathasnsneem9539/skin-edit-frontend.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd skin-edit-frontend
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+## Live Demo
+
+Explore the live website: https://skin-edit-frontend.vercel.app/
+
+---
+
+Developed as a frontend web development project.
